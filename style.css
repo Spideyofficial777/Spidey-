@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
+  background-image: url("https://i.im.ge/2024/07/18/Vb2vvD.1000014087.jpeg"); /* Using your uploaded image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Semi-transparent background for readability */
+  border-radius: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 2em;
+  color: #ff0000; /* Red color for title */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  max-width: 600px;
+}
+
+.text h2 {
+  font-size: 3em;
+  margin: 0;
+  color: #ff0000; /* Red color for heading */
+}
+
+.text p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons .btn {
+  background-color: #ff0000;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 1.1em;
+  border-radius: 5px;
+}
+
+.image img {
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 20px 0;
+  border-top: 1px solid #555;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  border-radius: 10px;
+}
+
+.footer-section {
+  max-width: 300px;
+}
+
+.footer-section h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #ff0000; /* Red color for footer headings */
+}
+
+.footer-section p {
+  font-size: 1em;
+}
